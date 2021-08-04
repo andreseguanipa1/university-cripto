@@ -1,0 +1,117 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background: url('../img/back.jpg');
+    background-size: 100%;
+    background-attachment: fixed;
+    margin:0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+p{
+    font-size: 125%;
+    color: black;
+}
+
+.icon{
+    color: white;
+    margin-top: 12px !important;
+    margin-right: 20px !important;
+}
+
+.light , .dark{
+    padding: 1% 2% 2% 3%;
+    width: 100%;
+}
+
+.light-text{
+    color: #fff;
+}
+
+.content{
+    margin-top: 45%;
+}
+
+.light{
+    background-color: rgb(199, 199, 199);
+}
+
+.dark{
+    background-color: #004D40;
+}
+
+.img-1{
+    width: 80%;
+}
+
+.publicity-1{
+    width: 73%; 
+}
+
+.pu-1{
+    width: 80%;
+}
+
+.pu-1:hover{
+    cursor:pointer;
+    width: 81%;
+}
+
+.pu-2{
+    width: 80%;
+}
+
+.pu-2:hover{
+    cursor: pointer;
+    width: 81%;
+}
+
+.pu-3{
+    width: 70%;
+}
+
+.pu-3:hover{
+    cursor: pointer;
+    width: 71%;
+}
+
+.img-4{
+    width: 52%;
+    height: 52%;
+}
+
+.statista{
+    width: 85%; 
+    max-width:960px;
+    -ms-interpolation-mode: bicubic;
+}
+
+.footer{
+    color: white;
+    text-align: center;
+}
+
+@media only screen and (max-width:850px) {
+
+    .publicity-1{
+        display: none; 
+    }
+
+} 
+
+@media only screen and (max-width:450px) {
+
+    *{
+        font-size: 100%;
+    }
+    
+} 
+
+
+
